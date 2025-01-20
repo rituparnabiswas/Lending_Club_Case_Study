@@ -33,13 +33,14 @@ On the other hand If the applicant is likely to repay the loan, then not approvi
 
 Conclusions
 1. Loan Amount and Funded Amount- Though we have some outliners but it does not have huge impact on finding defaulters.
-2, Purpose- Those who have taken loan for small buiness have the high tendency to be defaulters followed by renewable_energy.
-3. Home_OwnerShip- For each category we have a chance to find defaulters.In case of home_ownership is Other there is a chance of getting high percentage of defaulters followed by rent and own.In case mortgage the value is lowest.
-4. Revol_Util-loan_status Vs revol_util shows that borrower who have used their credit limit more are more likely to have Charged off status that means they are more likely to default
-5. Employment_Length- Employment length doesn't really have a huge impact on repayment of loan.
-6. DTI- DTI is not playing very important factor to find the defaulters
-7. DELININQ_2_YEARS-When delinq_2yrs is 8 the defaulters value is 50 percent. We cannot predict a specific pattern to find the defauters considering delinq_2yrs as the pattern in not consistent.
-8. Grade-It is a consistent pattern. The chance of finding defaulters is highest for grade G and lowest in grade A.Company should consider D,E,F and G grade as risky and implement proper risk asessment for those grades.
+2. Annual Salary- For Few applicants annual income is low but the loan_amnt is in higher range and prevous loan status is charged off. Though the number is not huge those set of applicants should be considered risky. They have the chanes to default.
+3. Purpose- Those who have taken loan for small buiness have the high tendency to be defaulters followed by renewable_energy.
+4. Home_OwnerShip- For each category we have a chance to find defaulters.In case of home_ownership is Other there is a chance of getting high percentage of defaulters followed by rent and own.In case mortgage the value is lowest.
+5. Revol_Util-loan_status Vs revol_util shows that borrower who have used their credit limit more are more likely to have Charged off status that means they are more likely to default
+6. Employment_Length- Employment length doesn't really have a huge impact on repayment of loan.
+7. DTI- DTI is not playing very important factor to find the defaulters
+8. DELININQ_2_YEARS-When delinq_2yrs is 8 the defaulters value is 50 percent. We cannot predict a specific pattern to find the defauters considering delinq_2yrs as the pattern in not consistent.
+9. Grade-It is a consistent pattern. The chance of finding defaulters is highest for grade G and lowest in grade A.Company should consider D,E,F and G grade as risky and implement proper risk asessment for those grades.
 Technologies Used
 - numpy 	    1.26.4
 - pandas	    2.2.3
