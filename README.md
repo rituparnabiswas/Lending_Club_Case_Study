@@ -53,4 +53,4 @@ This project was inspired by UpGrad IITB Programme as a case study for the Machi
 
 
 ## Contact
-Created by [@rituparnabiswas] and []
+Created by rituparna.biswas2010@gmail.com and saba.shah.rukh@hotmail.com
